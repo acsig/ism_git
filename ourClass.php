@@ -6,6 +6,9 @@ class ourBigClass
     private $sStatus;
     private $iCount;
     private $fValue;
+    /*
+     *  new comment
+     */
     
     
     public static function echoMsg($sMsg)
