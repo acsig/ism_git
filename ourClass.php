@@ -27,6 +27,14 @@ class ourBigClass
     /**
      * @return mixed
      */
+    public function msgFormAcs()
+    {
+        return "hello Word";
+    }
+
+    /**
+     * @return mixed
+     */
     public function getICount()
     {
         return $this->iCount;
