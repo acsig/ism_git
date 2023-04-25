@@ -7,7 +7,8 @@ class ourBigClass
     private $iCount;
     private $fValue;
     /*
-     *  new comment
+     *  new comment from as on 25.4.2023
+     *
      */
     
     
