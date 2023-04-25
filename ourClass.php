@@ -60,7 +60,55 @@ class ourBigClass
     {
         
     }
-    
+class Car {
+
+    private $car;
+    private $model;
+
+
+    public function __construct($car, $model) {
+        $this->car = $car;
+        $this->model = $model;
+
+    }
+
+
+    public function getCar() {
+        return $this->car;
+    }
+
+    public function getModel() {
+        return $this->model;
+    }
+
+
+
+
+    public function setCar($car) {
+        $this->car = $car;
+    }
+
+    public function setAge($model) {
+        $this->model = $model;
+    }
+
+
+}
+
+function findMax($arr) {
+
+    $max = $arr[0];
+
+    for ($i = 1; $i < count($arr); $i++) {
+        if ($arr[$i] > $max) {
+
+            $max = $arr[$i];
+        }
+    }
+
+
+    return $max;
+}
 }
 
 
