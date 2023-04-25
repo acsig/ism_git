@@ -7,7 +7,8 @@ class ourBigClass
     private $iCount;
     private $fValue;
     /*
-     *  new comment
+     *  new comment from as on 25.4.2023
+     *
      */
     
     
@@ -111,4 +112,60 @@ function findMax($arr) {
 }
 }
 
+class Person {
+  // Declare the class attributes
+  private $name;
+  private $age;
+  private $gender;
 
+  // Define the constructor method
+  public function __construct($name, $age, $gender) {
+    $this->name = $name;
+    $this->age = $age;
+    $this->gender = $gender;
+  }
+
+  // Define the getter methods
+  public function getName() {
+    return $this->name;
+  }
+
+  public function getAge() {
+    return $this->age;
+  }
+
+  public function getGender() {
+    return $this->gender;
+  }
+
+  // Define the setter methods
+  public function setName($name) {
+    $this->name = $name;
+  }
+
+  public function setAge($age) {
+    $this->age = $age;
+  }
+
+  public function setGender($gender) {
+    $this->gender = $gender;
+  }
+}
+
+// Finding the maximum element in an array of numbers
+
+function findMax($arr) {
+    // Initialize a variable to store the maximum element
+    $max = $arr[0];
+
+    // Loop through the array and compare each element with the current maximum
+    for ($i = 1; $i < count($arr); $i++) {
+        if ($arr[$i] > $max) {
+            // Update the maximum if a larger element is found
+            $max = $arr[$i];
+        }
+    }
+
+    // Return the maximum element
+    return $max;
+}
