@@ -7,10 +7,13 @@ class ourBigClass
     private $iCount;
     private $fValue;
     /*
-     *  new comment from as on 25.4.2023
+     * New method from acsig
      *
      */
-    
+    public static function MsgFromTheTeacher($sMsg)
+    {
+        echo "Hello students";
+    }
     
     public static function echoMsg($sMsg)
     {
