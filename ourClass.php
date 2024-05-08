@@ -14,7 +14,10 @@ class ourBigClass
     {
         echo "Hello students";
     }
-    
+    public function myNewMsg()
+    {
+        echo "this is 2024";
+    }
     public static function echoMsg($sMsg)
     {
         echo $sMsg;
