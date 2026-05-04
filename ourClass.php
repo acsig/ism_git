@@ -42,6 +42,11 @@ class ourBigClass
     /**
      * @return mixed
      */
+    public function thisIsfromArne()
+    {
+        echo "this is from Arne";
+    }
+
     public function getICount()
     {
         return $this->iCount;
