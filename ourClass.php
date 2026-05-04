@@ -38,6 +38,10 @@ class ourBigClass
     {
         return "hello Word";
     }
+function helloNeptune(){
+
+        echo "hello Neptune";
+}
 
     /**
      * @return mixed
